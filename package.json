@@ -1,21 +1,17 @@
 {
-  "name": "code-translate",
-  "displayName": "Code Translate",
+  "name": "came-case",
+  "displayName": "CameCase",
   "description": "translate toCameCase",
   "publisher": "gaoxm",
   "version": "0.0.1",
+  "license": "artadmire",
   "engines": {
     "vscode": "^1.0.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.toLowerCase",
-    "onCommand:extension.toUpperCase",
-    "onCommand:extension.toCameCase",
-    "onCommand:extension.toSnakeCase"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -94,7 +90,6 @@
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "20.2.5",
-    "@types/vscode": "^1.82.0",
     "@vscode/test-electron": "^2.3.2",
     "eslint": "^8.41.0",
     "glob": "^8.1.0",

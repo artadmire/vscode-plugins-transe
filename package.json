@@ -3,7 +3,7 @@
   "displayName": "CameCase",
   "description": "translate toCameCase",
   "publisher": "gaoxm",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "gaoxiumei",
   "engines": {
     "vscode": "^1.0.0"
@@ -11,7 +11,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:extension.toLowerCase",
+    "onCommand:extension.toUpperCase",
+    "onCommand:extension.toCameCase",
+    "onCommand:extension.toSnakeCase"
+
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -53,7 +59,7 @@
       ]
     }
   },
-  "icon": "./out/imgs/logo.png",
+  "icon": "out/imgs/logo.png",
   "keywords": [
     "code",
     "translate",

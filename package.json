@@ -4,7 +4,7 @@
   "description": "translate toCameCase",
   "publisher": "gaoxm",
   "version": "0.0.1",
-  "license": "artadmire",
+  "license": "gaoxiumei",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -32,32 +32,6 @@
         "title": "转化为下划线"
       }
     ],
-    "keybindings": [
-      {
-        "command": "extension.toLowerCase",
-        "key": "ctrl+h",
-        "mac": "cmd+h",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "extension.toUpperCase",
-        "key": "ctrl+j",
-        "mac": "cmd+j",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "extension.toCameCase",
-        "key": "ctrl+k",
-        "mac": "cmd+k",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "extension.toSnakeCase",
-        "key": "ctrl+l",
-        "mac": "cmd+l",
-        "when": "editorTextFocus"
-      }
-    ],
     "menus": {
       "editor/context": [
         {
@@ -79,6 +53,13 @@
       ]
     }
   },
+  "icon": "./out/imgs/logo.png",
+  "keywords": [
+    "code",
+    "translate",
+    "cameCase"
+  ],
+  "repository": "https://github.com/artadmire/vscode-plugins-translate",
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c",
